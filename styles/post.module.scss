@@ -1,0 +1,133 @@
+.postPage {
+  background: #f5f7fb;
+  min-height: 100vh;
+  padding: 48px 24px 96px;
+}
+.article {
+  max-width: 980px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #e9eef7;
+  border-radius: 24px;
+  box-shadow: 0 6px 24px rgba(20, 28, 50, 0.06);
+  padding: 32px 32px 40px;
+}
+.postHeader {
+  display: grid;
+  gap: 20px;
+}
+.postCover {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 26px rgba(20, 28, 50, 0.1);
+}
+.postTitle {
+  font-size: 2.375rem;
+  line-height: 1.25;
+  margin: 0;
+  text-align: center;
+  color: #1b1f2a;
+}
+.postInfo {
+  display: flex;
+  gap: 12px;
+  font-size: 0.95rem;
+  color: #6b7280;
+  justify-content: center;
+  align-items: center;
+}
+.postAuthor,
+.postDate,
+.postCategory {
+  white-space: nowrap;
+}
+.postInfo span:not(:last-child)::after {
+  content: "•";
+  margin: 0 8px;
+  color: #c0c6d6;
+}
+
+.postContent {
+  max-width: 780px;
+  margin: 24px auto 0;
+  padding: 0 8px;
+}
+.p {
+  font-size: 1.12rem;
+  line-height: 1.8;
+  margin: 1rem 0;
+  color: #2d3340;
+}
+.h1 {
+  font-size: 1.9rem;
+  margin: 2.2rem 0 1rem;
+  color: #1b1f2a;
+}
+.h2 {
+  font-size: 1.6rem;
+  margin: 2rem 0 1rem;
+  color: #1b1f2a;
+}
+.h3 {
+  font-size: 1.35rem;
+  margin: 1.6rem 0 0.8rem;
+  color: #1b1f2a;
+}
+.ul,
+.ol {
+  margin: 1rem 0 1rem 1.25rem;
+}
+.li {
+  margin: 0.4rem 0;
+}
+.quote {
+  border-left: 4px solid #e6ebf5;
+  padding-left: 14px;
+  color: #4b5563;
+  margin: 1.2rem 0;
+  background: #f8fafc;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 6px;
+}
+.imageFigure {
+  margin: 1.25rem 0;
+}
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.caption {
+  font-size: 0.9rem;
+  color: #777;
+  text-align: center;
+  margin-top: 4px;
+}
+.hr {
+  border: none;
+  border-top: 1px solid #e9eef7;
+  margin: 2rem 0;
+}
+
+.bold {
+  font-weight: 600;
+}
+.italic {
+  font-style: italic;
+}
+.code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  background: #f6f6f6;
+  padding: 0 4px;
+  border-radius: 4px;
+}
+.underline {
+  text-decoration: underline;
+}
+.strike {
+  text-decoration: line-through;
+}
